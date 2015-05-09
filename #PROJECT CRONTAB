@@ -1,0 +1,15 @@
+#PROJECT CRONTAB
+
+SHELL=/bin/sh
+PATH=/Users/luis/.rvm/gems/ruby-1.9.3-p448/bin:/Users/luis/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/luis/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/luis/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin
+
+#jump city
+0 * * * * /Volumes/ext.\ hd/projects/jump\ city\ records/jumpcity_cron.sh
+
+#hamburger music
+@reboot python /Users/luis/hamburger_music/uploadtotumblr.py
+0 * * * * python /Users/luis/hamburger_music/makepoetry.py
+
+#@luismqueral
+@reboot python /Users/luis/lmq_twitter/uploadtotumblr.py
+0 * * * * python /Users/luis/lmq_twitter/makepoetry.py
