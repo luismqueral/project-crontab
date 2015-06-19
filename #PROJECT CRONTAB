@@ -1,5 +1,3 @@
-#PROJECT CRONTAB
-
 SHELL=/bin/sh
 PATH=/Users/luis/.rvm/gems/ruby-1.9.3-p448/bin:/Users/luis/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/luis/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/luis/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin
 
@@ -13,3 +11,12 @@ PATH=/Users/luis/.rvm/gems/ruby-1.9.3-p448/bin:/Users/luis/.rvm/gems/ruby-1.9.3-
 #@luismqueral
 @reboot python /Users/luis/lmq_twitter/uploadtotumblr.py
 0 * * * * python /Users/luis/lmq_twitter/makepoetry.py
+
+#@BEER_NAME_BOT
+@reboot python /Users/luis/BEER_NAME_BOT/uploadtotumblr.py
+0 * * * * python /Users/luis/BEER_NAME_BOT/python script.py
+
+#@420_NAME_BOT
+@reboot python /Users/luis/420_NAME_BOT/uploadtotumblr.py
+0 * * * * python /Users/luis/420_NAME_BOT/script.py
+"/tmp/crontab.N4CzbKUlM9" 21L, 865C
